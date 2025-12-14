@@ -1,0 +1,20 @@
+2024-12-14T10:30:15 [auth-service] ERROR Authentication failed for user john.doe@example.com: Invalid credentials
+2024-12-14T10:30:45 [payment-service] ERROR Payment processing failed: Card declined for transaction TX_12345
+2024-12-14T10:31:02 [api-gateway] WARN High memory usage detected: 85% of available memory in use
+2024-12-14T10:31:15 [database-service] ERROR Connection timeout: Unable to connect to database after 5000ms
+2024-12-14T10:31:30 [email-service] ERROR Failed to send email to customer@example.com: SMTP connection refused
+2024-12-14T10:32:00 [user-service] INFO User registration completed successfully for user_id: 789
+2024-12-14T10:32:15 [payment-service] ERROR Database query failed: SQLException at line 234
+2024-12-14T10:32:45 [auth-service] ERROR Token validation failed: JWT expired at 2024-12-14T10:00:00Z
+2024-12-14T10:33:00 [api-gateway] WARN Request rate limit exceeded for IP: 192.168.1.100
+2024-12-14T10:33:15 [notification-service] ERROR Push notification failed: Device token invalid for user_456
+2024-12-14T10:33:30 [user-service] ERROR Null pointer exception in UserService.getProfile() at line 156
+2024-12-14T10:34:00 [payment-service] WARN Payment gateway response time degraded: 2500ms average
+2024-12-14T10:34:15 [database-service] ERROR Deadlock detected in transaction T_12345: Rolling back
+2024-12-14T10:34:45 [auth-service] INFO Password reset requested for user: admin@example.com
+2024-12-14T10:35:00 [storage-service] ERROR File upload failed: Disk quota exceeded for user_789
+2024-12-14T10:35:15 [api-gateway] ERROR Internal server error: NullPointerException in RequestHandler
+2024-12-14T10:35:30 [cache-service] WARN Redis connection lost: Unable to connect to redis://localhost:6379
+2024-12-14T10:36:00 [user-service] ERROR Failed to update user profile: Validation error - Invalid email format
+2024-12-14T10:36:15 [payment-service] ERROR Transaction rollback failed: Database connection lost during commit
+2024-12-14T10:36:30 [auth-service] ERROR OAuth token refresh failed: Invalid refresh token provided
